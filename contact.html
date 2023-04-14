@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personle Portfolio Website contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/tooplate-style.css">
+
+    <link rel="stylesheet" href="css/unicons.css">
+    <style>
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+        }
+
+        form {
+            width: 80%;
+            max-width: 500px;
+        }
+
+        input,
+        textarea,
+        button {
+            margin-bottom: 10px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        input,
+        textarea {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            margin-top: 1rem;
+            padding: 0.5rem;
+            background-color: orange;
+            color: #000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(221, 236, 8);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about/index.html">EXPERIENCE</a></li>
+                <li><a href="skill/index.html">SKILL</a></li>
+                <li><a href="blog/index.html">ARTICLE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="form-container" style="float: right; margin-top: 20px; margin-right: 200px;">
+            <h1 style="margin-top: 50px; margin-bottom: 50px; margin-left:50px;">CONTACT <span> FORM </span></h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="6bbdebcc-10d8-4d0a-b645-ed9a0a90db0d">
+                <div class="form-group" style="width: 340px;">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" style="width: 330px;" required>
+                </div>
+                <div class="form-group" style="width: 350px;">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" style="width: 350px;" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" style="width: 340px;height:90px;" required></textarea>
+                </div>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <div class="button-container">
+                    <button type="submit">Submit Form</button>
+                </div>
+            </form>
+        </div>
+
+
+        <!-- CONTACT -->
+        <section class="contact py-5" id="contact">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-5 mr-lg-5 col-12">
+                        <div class="google-map w-100">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30205.687668270795!2d73.8634458262712!3d18.855515480407288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2cad3dc758995%3A0x5d6d9d25cf3293a6!2sRajgurunagar%2C%20Maharashtra%20410505!5e0!3m2!1sen!2sin!4v1681371899037!5m2!1sen!2sin"
+                                width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5" style="margin-left: 100px; ">
+                            <div class="contact-info-item">
+                                <h3 class="mb-3 text-white" style="color:orange;">Pune, Maharastra, India</h3>
+                                <p class="footer-text mb-0" >+91 9975838100</p>
+                                <p ><a href="mailto:hello@company.co"style="color:orange;">sid7pute@gmail.com</a></p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        
+
+
+
+
+
+
+        <style>
+            .footer .container-fluid {
+                padding: 20px 0 0 0;
+                margin-top: 150px;
+            }
+
+            .footer .footer-info {
+                position: relative;
+                width: 100%;
+                text-align: center;
+            }
+
+            .footer .footer-info h2 {
+                margin-bottom: 20px;
+                font-size: 30px;
+                font-weight: 700;
+                color: black;
+            }
+
+            .footer .footer-info h3 {
+                margin-bottom: 25px;
+                font-size: 22px;
+                font-weight: 600;
+                color: black;
+            }
+
+            .footer .footer-menu {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .footer .footer-menu p {
+                color: black;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 20px;
+                padding: 0 15px;
+                border-right: 1px solid #ffffff;
+            }
+
+            .footer .footer-menu p:last-child {
+                border: none;
+            }
+
+            .footer .footer-social {
+                position: relative;
+                margin-top: 15px;
+            }
+
+            .footer .footer-social a {
+                display: inline-block;
+            }
+
+            .footer .footer-social a i {
+                margin-right: 15px;
+                font-size: 20px;
+                color: black;
+                transition: .3s;
+            }
+
+            .footer .footer-social a:last-child i {
+                margin: 0;
+            }
+
+            .footer .footer-social a:hover i {
+                color: #414141;
+            }
+
+            .footer .copyright {
+                position: relative;
+                text-align: center;
+                margin-top: 30px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+
+            .footer .copyright::before {
+                position: absolute;
+                content: "";
+                width: 50%;
+                height: 1px;
+                top: 0;
+                left: 25%;
+                background: rgba(256, 256, 256, .2);
+            }
+
+            .footer .copyright p {
+                margin: 0;
+                color: black;
+            }
+
+            .footer .copyright .col-md-6:last-child p {
+                text-align: right;
+            }
+
+            .footer .copyright p a {
+                color: #ffffff;
+                font-weight: 600;
+            }
+
+            .footer .copyright p a:hover {
+                color: #414141;
+            }
+
+            @media (max-width: 575.98px) {
+                .footer .footer-info h2 {
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                .footer .footer-info h3 {
+                    margin-bottom: 20px;
+                    font-size: 16px;
+                }
+
+                .footer .footer-menu p {
+                    font-size: 16px;
+                    line-height: 16px;
+                    padding: 0 5px;
+                }
+            }
+
+            /* Increase container size */
+            .container {
+                max-width: 1200px;
+                /* Set the desired maximum width */
+            }
+
+            /* Increase column size */
+            .col-lg-5 {
+                flex-basis: 60%;
+                /* Set the desired width as a percentage */
+                max-width: 60%;
+                /* Set the desired maximum width as a percentage */
+            }
+
+            /* Increase the height of the google-map iframe */
+            .google-map {
+                margin-top: 120px;
+                margin-left: 100px;
+                height: 300px;
+                /* Set the desired height */
+            }
+            .contact-info-item{
+                margin-left: 100px;
+            }
+           
+
+        </style>
+
+
+</body>
+
+</html>
