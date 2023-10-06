@@ -113,3 +113,12 @@ span{
 .social a:hover{
     color: orange;
 }
+
+@media (max-width: 768px) {
+    /* Adjust font sizes for smaller screens */
+    body {
+        font-size: 16px;
+    }
+
+    /* Add more CSS rules as needed */
+}
